@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.learn.zohky.coffeeorderapp.MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:contentDescription="@string/coffee"
+            android:scaleType="centerCrop"
+            android:src="@drawable/coffee" />
+
+        <EditText
+            android:id="@+id/etOrderName"
+            android:hint="@string/enter_order_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:text="@string/toppings"
+            style="@style/HeaderTextStyle"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/cbWhippedCream"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/whipped_cream" />
+
+            <CheckBox
+                android:id="@+id/cbChocolate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chocolate" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/quantity"
+            style="@style/HeaderTextStyle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:onClick="subClick"
+                android:id="@+id/bSub"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/tvQuantity"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="0"
+                android:textSize="24sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:onClick="addClick"
+                android:id="@+id/bAdd"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="+" />
+
+        </LinearLayout>
+
+        <Button
+            android:onClick="orderClick"
+            android:id="@+id/bOrder"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/order"/>
+
+    </LinearLayout>
+
+</ScrollView>

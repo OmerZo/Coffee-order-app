@@ -1,0 +1,24 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Coffee order app</string>
+    <string name="coffee">Coffee</string>
+    <string name="enter_order_name">Enter order name</string>
+    <string name="toppings">TOPPINGS</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="order">order</string>
+    <string name="with_cream">with cream\ </string>
+    <string name="without_cream">without cream\ </string>
+    <string name="without_chocolate">without chocolate</string>
+    <string name="with_chocolate">with chocolate</string>
+    <string name="Coffee_order_for">Coffee order for <xliff:g id="name" example="Joe">%s</xliff:g></string>
+
+
+    <string name="quantity_summary">You have ordered <xliff:g id="quantity" example="2">%d</xliff:g> coffee/s\ </string>
+
+    <string name="order_summary">You have ordered <xliff:g id="quantity" example="2">%d</xliff:g> coffee/s
+        <xliff:g id="cream" example="with cream">%s</xliff:g>
+        <xliff:g id="chocolate" example="with_chocolate">%s</xliff:g> at the price of
+        <xliff:g id="local_currency_format" example="12$">%s</xliff:g></string>
+
+</resources>

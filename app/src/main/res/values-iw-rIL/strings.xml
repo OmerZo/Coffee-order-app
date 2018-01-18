@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Coffee order app</string>
+    <string name="coffee">קפה</string>
+    <string name="enter_order_name">הכנס שם הזמנה</string>
+    <string name="toppings">תוספות</string>
+    <string name="whipped_cream">קרם</string>
+    <string name="chocolate">שוקולד</string>
+    <string name="quantity">כמות</string>
+    <string name="order">הזמן</string>
+    <string name="with_cream">עם קרם</string>
+    <string name="without_cream">בלי קרם</string>
+    <string name="without_chocolate">בלי שוקולד</string>
+    <string name="with_chocolate">עם שוקולד</string>
+    <string name="Coffee_order_for">הזמנת קפה על שם <xliff:g id="name" example="Joe">%s</xliff:g></string>
+
+    <string name="order_summary">אתה הזמנת <xliff:g id="quantity" example="2">%d</xliff:g> קפה
+        <xliff:g id="cream" example="with cream">%s</xliff:g>
+        <xliff:g id="chocolate" example="with_chocolate">%s</xliff:g> במחיר של
+        <xliff:g id="local_currency_format" example="12$">%s</xliff:g></string>
+
+</resources>
